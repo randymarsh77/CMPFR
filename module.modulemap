@@ -1,0 +1,6 @@
+module CMPFR [system] {
+  header "shim.h"
+  header "/usr/local/include/mpfr.h"
+  link "mpfr"
+  export *
+}
